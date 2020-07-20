@@ -1,0 +1,27 @@
+{
+  "name": "cogo-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "surge": "surge ./build http://cogo-spellchecker.surge.sh/"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@neutrinojs/react": "^9.3.0",
+    "fontsource-roboto": "^2.1.4",
+    "prop-types": "^15",
+    "react": "^16",
+    "react-dom": "^16",
+    "react-hot-loader": "^4"
+  },
+  "devDependencies": {
+    "neutrino": "^9.3.0",
+    "webpack": "^4",
+    "webpack-cli": "^3",
+    "webpack-dev-server": "^3"
+  }
+}

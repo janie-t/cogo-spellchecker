@@ -1,0 +1,13 @@
+body {
+  padding: 2rem;
+  margin: 0;
+  font-family: roboto;
+  background-color: #f9fbe7;
+  text-align: center;
+}
+
+h1, h3, h4 {
+  color: #616161;
+}
+
+
